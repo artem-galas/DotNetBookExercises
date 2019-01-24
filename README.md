@@ -1,6 +1,6 @@
 # Dot Net Exercises
 
-Repository contain solved exercices from [Book](https://www.amazon.com/7-1-NET-Core-2-0-Cross-Platform/dp/1788398076)
+Repository contain solved exercices from [C# 7.1 and .NET Core 2.0 - Modern Cross-Platform Development - Third Edition](https://www.amazon.com/7-1-NET-Core-2-0-Cross-Platform/dp/1788398076) book
 
 ## Table of Contents
 ### Chapter 02. Speaking C#
