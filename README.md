@@ -39,6 +39,21 @@ Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77,
 Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92,
 Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz,
 ```
+- `Exercise04` - Create a console application that asks the user for two numbers in the range *0-255* and then divides the first number by the second:
+
+```terminal
+Enter a number between 0 and 255: 100
+Enter a second number between 0 and 255: 10
+100 / 10 = 10
+
+Enter a number between 0 and 255: 900
+Enter a second number between 0 and 255: apple
+Input string shold be a number, try 10
+
+Enter a number between 0 and 255: 900
+Enter a second number between 0 and 255: -5
+System.ArgumentException firstNumber must be lower than 255 and bigger than 0.
+```
 
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
