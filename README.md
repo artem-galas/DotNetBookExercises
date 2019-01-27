@@ -54,6 +54,31 @@ Enter a number between 0 and 255: 900
 Enter a second number between 0 and 255: -5
 System.ArgumentException firstNumber must be lower than 255 and bigger than 0.
 ```
+## Chapter 04.Writing, Debugging, and Testing Functions
+-`Exercise05` - Create a console application with method named `PrimeFactors`
+that, when passed an int variable as a parameter, returns a string showing its prime factors.
+
+For this exercise I created `PrimeFactorLib` which contain classlib `PrimeFactor` with method `Calculate`.
+`PrimeFactorUnitTests` - using `xUnit` and test functionality for `PrimeFactorLib`.
+
+For adding `PrimeFactorLib` to `Exercise05` console application I added line into `Exercise05.csproj`
+
+```xml
+<ItemGroup>
+    <ProjectReference Include="../PrimeFactorLib/PrimeFactorLib.csproj" />
+</ItemGroup>
+```
+
+```terminal
+Please add a number: 4
+Prime Factor for 4 = 2*2
+
+Please add a number: 40
+Prime Factor for 40 = 2*2*2*5
+
+Please add a number: banana
+You add is not a number
+```
 
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
