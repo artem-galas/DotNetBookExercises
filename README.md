@@ -27,7 +27,7 @@ decimal    16    -79228162514264337593543950335  79228162514264337593543950335
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ```
 
-## Chapter 03. Controlling the Flow and Converting Types
+### Chapter 03. Controlling the Flow and Converting Types
 - `Exercise03` - simulated FizzBuzz game counting up to 100.
 
 ```terminal
@@ -54,7 +54,7 @@ Enter a number between 0 and 255: 900
 Enter a second number between 0 and 255: -5
 System.ArgumentException firstNumber must be lower than 255 and bigger than 0.
 ```
-## Chapter 04.Writing, Debugging, and Testing Functions
+### Chapter 04. Writing, Debugging, and Testing Functions
 -`Exercise05` - Create a console application with method named `PrimeFactors`
 that, when passed an int variable as a parameter, returns a string showing its prime factors.
 
@@ -78,6 +78,19 @@ Prime Factor for 40 = 2*2*2*5
 
 Please add a number: banana
 You add is not a number
+```
+
+### Chapter 05/06 Classes and Interfaces.
+Create a class named `Shape` with properties named `Height`, `Width`, and `Area`.
+Add three classes that derive from it `Rectangle`, `Square`, and `Circle` with any
+additional members you feel are appropriate and that override and implement the `Area`
+property correctly.
+
+Created a `ShapeLibrary` where all classes are implement, and ShapeLibTests for testing those classes.
+```terminal
+$ dotnet test
+Total tests: 12. Passed: 12. Failed: 0. Skipped: 0.
+Test Run Successful.
 ```
 
 ## How to Run project?
