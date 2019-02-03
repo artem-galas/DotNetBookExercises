@@ -93,6 +93,22 @@ Total tests: 12. Passed: 12. Failed: 0. Skipped: 0.
 Test Run Successful.
 ```
 
+### Chapter 07/08. Using Common .NET Standard Types
+
+Create a console application that prompts the user to enter a regular
+expression, and then prompts the user to enter some input and compare the two for a match until the user presses `Esc`:
+
+```terminal
+Enter a regular exeption or use default ^[a-z]+$:
+Enter some inputs: apple
+apple mathces to ^[a-z]+$: True
+Press ESC to end or any key to try again
+Enter a regular exeption or use default ^[a-z]+$: ^[0-9]+$
+Enter some inputs: 09991345
+09991345 mathces to ^[0-9]+$: True
+Press ESC to end or any key to try again
+```
+
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
 - Open folder with project
