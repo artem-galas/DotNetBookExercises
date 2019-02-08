@@ -109,6 +109,22 @@ Enter some inputs: 09991345
 Press ESC to end or any key to try again
 ```
 
+### Chapter 09. Working with Files, Streams, and Serialization.
+
+Create a console application that creates a list of shapes, uses
+serialization to save it to the filesystem using XML, and then deserializes it back.
+Shapes should have a read-only property named `Area` so that when you deserialize, you
+can output a list of shapes, including their areas, as shown here:
+
+I created XML serialization and JSON serialization
+```terminal
+Written 546 bytes of XML to Chapter09/Exercise09/shapes.xml
+Written 264 bytes of JSON to Chapter09/Exercise09/shapes.json
+```
+
+Most probably for solving this exercise should use [IXmlSerializable](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.ixmlserializable)
+But I dont get how it works.
+
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
 - Open folder with project
