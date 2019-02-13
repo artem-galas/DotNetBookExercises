@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+    <Customer Password="MWpBvGPdHA8mogFARZ+HSM7Hq4jxjVaD8RnGHLXyy9E=" CardNumber="kMO+GgRBmVkCJNAzRQnUIb3+400ovtUQhdO4I/tRYNw=" Salt="Er6MPzx8e0uEVzVrsOh6NA==">Artem Halas</Customer>
+    <Customer Password="hs9boYQHmjxAwMsW62HEwBgMo6RhiNtzPv9ZJ0O+X2w=" CardNumber="0zN7eR8QLn4F2oQghZsSqd5AFN3OQe5sSg2/hdK6dyg=" Salt="CmNLlzjr63SCkA67Z6DbWg==">John Snow</Customer>
+    <Customer Password="/z5lG+t+v74nJg9ffRQma6RcHUIwi7ssaMic6rwc3r8=" CardNumber="IolxqLLMyVlL6j0aIreiTGWF8Mjkl82b86ANBl7ulE8=" Salt="zZYUmhx66kSvBRo8+InSOw==">Han Solo</Customer>
+</Customers>
