@@ -154,6 +154,38 @@ IDontKnow
 Wrong Password for John Snow
 ```
 
+### Chapter 11. Working with Databases Using Entity Framework Core
+Create a console application that queries the `Northwind` database for
+all the categories and products, and then serializes the data using at least three formats of serialization available to .NET Core.
+Which format of serialization uses the least number of bytes?
+
+### Chapter 12. Querying and Manipulating Data Using LINQ
+Create a console application, that prompts the user for a city and then
+lists the company names for `Northwind` customers in that city.
+Enhance the application by displaying a list of all unique cities that customers already reside in as a prompt to the user before they enter their preferred city.
+
+```terminal
+There are available cities:
+Aachen, Albuquerque, Anchorage, Barcelona, Barquisimeto, Bergamo, Berlin, Bern,
+Boise, Brandenburg, Bruxelles, Bräcke, Buenos Aires, Butte, Campinas, Caracas,
+Charleroi, Cork, Cowes, Cunewalde, Elgin, Eugene, Frankfurt a.M., Genève, Graz,
+Helsinki, I. de Margarita, Kirkland, Kobenhavn, Köln, Lander, Leipzig, Lille,
+Lisboa, London, Luleå, Lyon, Madrid, Mannheim, Marseille, Montréal, México D.F.,
+München, Münster, Nantes, Oulu, Paris, Portland, Reggio Emilia, Reims, Resende,
+Rio de Janeiro, Salzburg, San Cristóbal, San Francisco, Sao Paulo, Seattle,
+Sevilla, Stavern, Strasbourg, Stuttgart, Torino, Toulouse, Tsawassen, Vancouver,
+Versailles, Walla Walla, Warszawa, Århus, 
+
+Enter name of the city: London
+There are 6 customers in London
+Around the Horn
+B's Beverages
+Consolidated Holdings
+Eastern Connection
+North/South
+Seven Seas Imports
+```
+
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
 - Open folder with project
