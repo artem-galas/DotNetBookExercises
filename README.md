@@ -186,6 +186,20 @@ North/South
 Seven Seas Imports
 ```
 
+### Part 3.
+### NorthiwindWeb
+Simple web app uses [RazorPages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-2.2&tabs=visual-studio-code)
+Includes these pages:
+- `suppliers` - display all Suppliers from db
+- `suppliers/detail/:id` - display all necessary information about one certain Supplier
+- `/products` - display all Products from db
+- `products/detail/:id` - display all necessary information about one certain Product
+- `/` - home page for application `Index.cshtml`
+- `_Layout.cshtml` - base layout for all application pages
+
+- *NorthwindEntitiesLib* - simple classlib which includes all entities describtion from `Nortwind.db`
+- *NorthwindContextLib* - simble classlib which connect entities to DB
+
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
 - Open folder with project
