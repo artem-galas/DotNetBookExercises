@@ -200,6 +200,9 @@ Includes these pages:
 - *NorthwindEntitiesLib* - simple classlib which includes all entities describtion from `Nortwind.db`
 - *NorthwindContextLib* - simble classlib which connect entities to DB
 
+### NortwindApi
+Simple appi with one endpoind `/api/customers` and with `swagger` documentation
+
 ## How to Run project?
 - Be sure you have installed [dotnet](https://dotnet.microsoft.com/download)
 - Open folder with project
