@@ -214,3 +214,9 @@ cd Chapter02/Exercise02
 dotnet run
 ```
 
+## Resume of the book
+
+Book give you *basic* information about all .NetCore infrastructure and give basic code samples. This book might be very usefull for non-developer person, because in all chapters author gives information how to create a new project, what menu you should open etc.(even if you aredy did it before)
+
+I find this book usefull but you *SHOULD* read it with [Microsoft .Net Documentaion](https://docs.microsoft.com/en-gb/aspnet/core/getting-started/?view=aspnetcore-2.2&tabs=macos). Good that author provide usefull doc links in the end of each chapter.
+This book it's a good additional material which supplement offical documentation.
